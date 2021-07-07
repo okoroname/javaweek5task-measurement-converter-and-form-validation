@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regform.css">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Registration Form</h1> 
+   <div id= "form-container">
+   <form action="" name = "regForm" onsubmit="return validateform()" >
+       <label for="fName">First Name</label><br> <input type="text" id = "fName" required maxlength="12" minlength="8"> <br>
+       <label for="lName">Last Name</label> <br><input type="text" id = "lName" required maxlength="12" minlength="8"> <br>
+       <label for="email">Email</label> <br><input type="email" id = "email" required > <br>
+       <label for="username">Username</label><br> <input type="text" id = "username" required maxlength="8" minlength="6"> <br>
+       <label for="password">Password</label><br> <input type="password" id = "password" required > <br>
+       <label for="retypePassword">Retype Password</label><br> <input type="password" id = "retypePassword" required > <br>
+       <input type="submit" id = "Register" ><br>
+    </div>
+
+
+
+   </form>
+   <script src="./regform.js"></script>
+</body>
+</html>
